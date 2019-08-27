@@ -1,0 +1,27 @@
+title: ctflog
+author: freakazoids
+email: root@freakazoids.de
+description: >
+  Hi there, we are a bunch of freakazoids who love to pwn.
+  We are not really good in hacking but we love to participate
+  at CTF competitions. Just for the lulz.
+  Feel free to join us. :-)
+
+paginate: 1
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+dash:
+  date_format: "%b %-d, %Y"
+
+  disqus:
+    shortname: freakazoids-github-io
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - liquid-md5
